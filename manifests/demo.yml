@@ -33,7 +33,7 @@ spec:
     spec:
       containers:
       - name: primary
-        image: index.docker.io/dylandocker31/spin-kub-v2-demo:latest
+        image: index.docker.io/dylandocker31/spin-kub-v2-demo
         ports:
         - containerPort: 8000
         readinessProbe:
