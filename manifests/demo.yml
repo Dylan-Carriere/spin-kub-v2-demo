@@ -1,12 +1,12 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: spinnaker-demo-config
+#apiVersion: v1
+#kind: ConfigMap
+#metadata:
+#  name: spinnaker-demo-config
 #  namespace: spinnaker
-data:
-  NEW_FEATURE: "true"
+#data:
+#  NEW_FEATURE: "true"
 
----
+#---
 apiVersion: apps/v1beta2
 kind: Deployment
 metadata:
