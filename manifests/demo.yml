@@ -44,9 +44,8 @@ spec:
         - configMapRef:
             name: spinnaker-demo-config
 
-            
----
 
+---
 
 kind: Service
 apiVersion: v1
