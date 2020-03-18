@@ -22,15 +22,15 @@ roleRef:
 
 ---
 
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: spinnaker-demo-config
-  namespace: spinnaker
-data:
-  NEW_FEATURE: "true"
+# apiVersion: v1
+# kind: ConfigMap
+# metadata:
+#   name: spinnaker-demo-config
+#   namespace: spinnaker
+# data:
+#   NEW_FEATURE: "true"
 
----
+# ---
 
 
 apiVersion: apps/v1beta2
